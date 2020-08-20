@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "aqua" # "default", "air", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Surfing Orca"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Love Surfing in the Ocean of Data"
 name                     : "Marc"
-description              : "Love Surfing in the Ocean of Data"
+description              :
 url                      : "https://SurfingOrca.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "SurfingOrca/SurfingOrca.github.io"
