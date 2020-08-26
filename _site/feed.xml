@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-26T12:46:10+09:00</updated><id>http://localhost:4000/</id><title type="html">Surfing Orca</title><subtitle>Surfing Orca's Blog</subtitle><author><name>Jihoon Kang</name><email>surfingorca@kakao.com</email></author><entry><title type="html">Algorithm_Study_01</title><link href="http://localhost:4000/01/" rel="alternate" type="text/html" title="Algorithm_Study_01" /><published>2020-08-25T00:00:00+09:00</published><updated>2020-08-25T00:00:00+09:00</updated><id>http://localhost:4000/01</id><content type="html" xml:base="http://localhost:4000/01/">&lt;h1 id=&quot;두-정수-사이의-합&quot;&gt;두 정수 사이의 합&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;프로그래머스&lt;/strong&gt;에서 풀어본 &lt;strong&gt;&lt;em&gt;첫 알고리즘 문제!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;두 정수 사이의 합을 구하시오
+    &lt;ul&gt;
+      &lt;li&gt;정수 &lt;strong&gt;a&lt;/strong&gt;와 &lt;strong&gt;b&lt;/strong&gt;가 주어졌을 때 a와 b를 포함한 두 정수 사이의 모든 정수의 합을 구하는 문제&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용한 조건문
+    &lt;ul&gt;
+      &lt;li&gt;if __: __
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if 조건이 참 혹은 거짓이라면: 다음 코드를 실행하시오.&lt;/code&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;사용한 함수
+    &lt;ul&gt;
+      &lt;li&gt;range()
+        &lt;ul&gt;
+          &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;range([시작:int, default = 0,] 끝:int [, 스텝:int, default = 1])  # 끝은 포함하지 않는다.&lt;/code&gt;&lt;/li&gt;
+          &lt;li&gt;예1) &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&amp;gt; range(5)&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;range(0, 5)&lt;/code&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;예2) &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&amp;gt; list(range(5))&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[0, 1, 2, 3, 4]&lt;/code&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;예3) &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&amp;gt; range(1, 5)&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[1, 2, 3, 4]&lt;/code&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;예4) &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&amp;gt; list(range(0, 7, 2))&lt;/code&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;[0, 2, 4, 6]&lt;/code&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;sum()&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jihoon Kang</name><email>surfingorca@kakao.com</email></author><category term="jekyll" /><category term="github" /><category term="markdown" /><summary type="html">두 정수 사이의 합 프로그래머스에서 풀어본 첫 알고리즘 문제! 두 정수 사이의 합을 구하시오 정수 a와 b가 주어졌을 때 a와 b를 포함한 두 정수 사이의 모든 정수의 합을 구하는 문제 사용한 조건문 if __: __ if 조건이 참 혹은 거짓이라면: 다음 코드를 실행하시오. 사용한 함수 range() range([시작:int, default = 0,] 끝:int [, 스텝:int, default = 1]) # 끝은 포함하지 않는다. 예1) &amp;gt;&amp;gt;&amp;gt; range(5) range(0, 5) 예2) &amp;gt;&amp;gt;&amp;gt; list(range(5)) [0, 1, 2, 3, 4] 예3) &amp;gt;&amp;gt;&amp;gt; range(1, 5) [1, 2, 3, 4] 예4) &amp;gt;&amp;gt;&amp;gt; list(range(0, 7, 2)) [0, 2, 4, 6] sum()</summary></entry></feed>
