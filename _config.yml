@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : True # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Jihoon Kang"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/avatar.png"
   bio              : "Business Coach, Data Analyst, Data Scientist, and Father"
   location         : "Seoul, Korea"
   email            : "surfingorca@kakao.com"
