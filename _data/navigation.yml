@@ -1,9 +1,5 @@
 # main links
 main:
-  - title: "Archive"
-    url: /Pages/quick-start-guide/
-  - title: "About"
-    url: /about/
   - title: "Posts by Year"
     url: /year-archive/
   - title: "Posts by Tag"
