@@ -2,6 +2,7 @@
 title: Algorithm_Study_01
 excerpt: "1. 파이썬으로 풀어본 첫 번째 알고리즘 문제!"
 
+toc: true
 categories:
   - Study
 tags:
