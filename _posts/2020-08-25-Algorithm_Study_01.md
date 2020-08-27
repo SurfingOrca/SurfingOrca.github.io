@@ -7,6 +7,7 @@ toc_label: "Table of Contents"
 toc_sticky: true
 categories:
   - Study
+  - freedom
 tags:
   - Algorithm
   - Python
