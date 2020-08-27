@@ -4,6 +4,7 @@ excerpt: "1. 파이썬으로 풀어본 첫 번째 알고리즘 문제!"
 
 toc: true
 toc_label: "Table of Contents"
+toc_sticky: true
 categories:
   - Study
 tags:
