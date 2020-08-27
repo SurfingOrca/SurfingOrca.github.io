@@ -1,13 +1,13 @@
 ---
-layout: posts
-categories: Study
-tags: [Algorithm, Python]
 title: Algorithm_Study_01
-comments: true
-toc: true
-toc_sticky: true
-show_date: true
+excerpt: "1. 파이썬으로 풀어본 첫 번째 알고리즘 문제!"
 
+categories:
+  - Study
+tags:
+  - Algorithm
+  - Python
+last_modified_at: 2020-08-27
 ---
 
 ## 1. 파이썬으로 풀어본 **첫 번째 알고리즘 문제!**
