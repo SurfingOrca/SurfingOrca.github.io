@@ -83,7 +83,7 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 1. Ubuntu 설치에 앞서 환경 설정을 변경해줘야 합니다. Windows에서 Linux OS를 사용하기 위한 변경이라고 이해하면 될 것 같아요.
     - 제어판 → 프로그램 → 프로그램 및 기능 → Windows 기능 켜기/끄기 → Linux용 Windows 하위 시스템 선택 → 재부팅
 
-        ![https://drive.google.com/file/d/1t8rnNMfZlTXKse-6VuRJDWIIDk02NkD1/view?usp=sharing](https://drive.google.com/file/d/1t8rnNMfZlTXKse-6VuRJDWIIDk02NkD1/view?usp=sharing)
+        ![이미지 1](https://drive.google.com/file/d/1t8rnNMfZlTXKse-6VuRJDWIIDk02NkD1/view?usp=sharing)
 
 2. 재부팅을 하셨으면 Microsoft Store에서 Ubuntu를 설치하고 실행해줍시다.
 
