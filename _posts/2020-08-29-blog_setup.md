@@ -187,7 +187,7 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 4. 부팅 후 다음 코드를 실행하여 서버가 잘 연동되는지 확인해봅시다.
 
     ```
-    $ Bundle exec jekyll serve
+    $ Bundle exec jekyll serve --no-watch
     ```
 
     - 혹 에러를 만나게 되면 마지막 관문이다 생각하고 침착하게 다음 코드를 실행합니다.
