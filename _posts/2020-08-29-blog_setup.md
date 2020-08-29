@@ -14,7 +14,8 @@ tags:
 last_modified_at: 2020-08-29
 ---
 
-> 孤軍奮鬪 (고군분투): (1)운동경기나 싸움에서 혼자서 많은 수의 적들을 상대하여 힘들게 싸움. (2)남의 도움을 받지 아니하고 힘에 벅찬 일을 잘해 나가는 것을 비유적으로 이르는 말.
+**孤軍奮鬪 (고군분투):** (1)운동경기나 싸움에서 혼자서 많은 수의 적들을 상대하여 힘들게 싸움. (2)남의 도움을 받지 아니하고 힘에 벅찬 일을 잘해 나가는 것을 비유적으로 이르는 말.
+{: .notice--success}
 
 > Aloha~!
 
@@ -92,7 +93,7 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 3. 설치가 완료되면 Ubuntu를 실행합시다.
     - 끝난줄 알았지만 조금 더 기다려봅시다.
 
-    ![Image_3]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_03.png)
+      ![Image_3]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_03.png)
 
 4. 설치가 완료되면 UNIX username을 입력하라고 나옵니다. 전 surfingorca로 정했어요.
 
