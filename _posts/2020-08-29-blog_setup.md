@@ -197,7 +197,8 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
         $ sudo chown -R [your username] /mnt/c/[블로그 폴더 경로]
         ```
 
-        - 그 후 부팅 후 위 코드를 실행하세요. 저는 부팅 안 하고 실행하니 똑같은 에러를 만났어요 ㅎㅎ
+        - 그런 다음 부팅 후 `$ Bundle exec jekyll serve --no-watch` 를 다시 실행하세요.  
+        저는 부팅 안 하고 실행하니 똑같은 에러를 만났어요 ㅎㅎ
         - 관련하여 stack overflow에 올라온 [질문과 답](https://stackoverflow.com/questions/57243299/jekyll-operation-not-permitted-apply2files)을 참고하세요.
 &nbsp;  
 &nbsp;
