@@ -87,12 +87,12 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 
 2. 재부팅을 하셨으면 Microsoft Store에서 Ubuntu를 설치하고 실행해줍시다.
 
-    ![https://drive.google.com/file/d/1LCj4yG6UoafQzuH9Ax8JYK9T6fXmIVRw/view?usp=sharing](https://drive.google.com/file/d/1LCj4yG6UoafQzuH9Ax8JYK9T6fXmIVRw/view?usp=sharing)
+    ![Image_2]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_02.png)
 
 3. 설치가 완료되면 Ubuntu를 실행합시다.
     - 끝난줄 알았지만 조금 더 기다려봅시다.
 
-    ![https://drive.google.com/file/d/1GTB8p3FGQIJ72oaAMkPNdVzWE-BMwBEW/view?usp=sharing](https://drive.google.com/file/d/1GTB8p3FGQIJ72oaAMkPNdVzWE-BMwBEW/view?usp=sharing)
+    ![Image_3]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_03.png)
 
 4. 설치가 완료되면 UNIX username을 입력하라고 나옵니다. 전 surfingorca로 정했어요.
 
@@ -167,7 +167,7 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
     -
 5. 잘 실행되었다면 아래 그림과 같이 접속 가능한 URL을 볼 수 있습니다.
 
-    ![https://drive.google.com/file/d/1BgaPjTmw-xxNK_pw7gUSOmBa_PtoSS5c/view?usp=sharing](https://drive.google.com/file/d/1BgaPjTmw-xxNK_pw7gUSOmBa_PtoSS5c/view?usp=sharing)
+    ![Image_4]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_04.png)
 
     - 웹 브라우저에서 [http://127.0.0.1:4000](http://127.0.0.1:4000) 을 여시면 블로그를 바로 확인하실 수 있습니다.
 
@@ -175,7 +175,7 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 
 이제 블로그를 수정한 뒤 바로 확인하고 싶으면 서버 접속을 끊고 다시 재접속하면 바로 확인할 수 있습니다.
 
-![https://drive.google.com/file/d/1MsBANYo_RPjK8-doHzw8kjgEpyEyE5nS/view?usp=sharing](https://drive.google.com/file/d/1MsBANYo_RPjK8-doHzw8kjgEpyEyE5nS/view?usp=sharing)
+![Image_5]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_05.png)
 
 - Ctrl + c 를 누르면 서버 접속을 끊을 수 있습니다.
 - 다시 Ubuntu 터미널로 돌아오면 **`$ bundle exec jekyll serve`** 를 실행하여 접속합니다.
