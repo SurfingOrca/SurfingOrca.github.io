@@ -19,7 +19,7 @@ last_modified_at: 2020-08-29
 (2)남의 도움을 받지 아니하고 힘에 벅찬 일을 잘해 나가는 것을 비유적으로 이르는 말.
 {: .notice--success}
 
-> Aloha~!
+> **Aloha~!**
 
 ## 들어가기 전:
 
@@ -30,26 +30,28 @@ last_modified_at: 2020-08-29
     - Minimal Mistakes 혹은 Jekyll Theme으로 블로그 셋업 완료
         - 아주 간단하게만 셋업되어 있어도 좋습니다.
 
+<br>
+
 ## 1. Introduction
 
 멋진 친구로부터 손쉽게 github에 블로그를 만들 수 있다는 말을 듣고 움직였습니다.  
-(Thank you, [Sean](https://github.com/Sean-Parkk))
+(Thank you, [Sean](https://github.com/Sean-Parkk))  
+&nbsp;
 
-<br>
 
 Jekyll 테마 중 Minimal mistakes을 이용하여 블로그를 생성하는 것은 상대적으로 쉬웠습니다.
-- Jekyll에 대해서 알고 싶다면 [이곳](http://t-robotics.blogspot.com/2016/04/jekyll.html#.X0b8tcgzZPY)과 [이곳](https://jekyllrb.com/docs/)을 방문해보아요~
+- Jekyll에 대해서 알고 싶다면 [이곳](http://t-robotics.blogspot.com/2016/04/jekyll.html#.X0b8tcgzZPY)과 [이곳](https://jekyllrb.com/docs/)을 방문해보아요~  
+&nbsp;
 
-<br>
 
 간단하게 이야기하면
 1. Github에 블로그(혹은 사이트)를 위한 Repository를 생성
 2. Minimal Mistakes의 Repository에서 Fork
 3. 필요한 부분만 복사/붙여넣기
 
-이렇게 하면 끝! ~~(이 아닌 시작이라는게 함정)~~
+이렇게 하면 끝! ~~(이 아닌 시작이라는게 함정)~~  
+&nbsp;
 
-<br>
 
 이렇게 블로그를 셋업하는 방법은 여러 블로그에 소개되어 있습니다.
 제가 참고한 블로그들은 아래 블로그들입니다. 링크를 타고 넘어가세요~
@@ -70,7 +72,9 @@ Minimal Mistakes의 공식 소개 사이트에는 다음과 같이 나와있습�
 
 > 야매번역: **"기술적인 이유로 블로그를 수정해도 바로 적용되지 않아요! Jekyll 서버를 다시 시작해야 바로 확인할 수 있어요"**
 
-내가 변경한 부분을 바로 볼 수 없다니. 제대로 고쳐졌는지, 글은 잘 올라갔는지, 수정한 테마가 잘 어울리는지 등을 바로 볼 수 없으면 언제 돌아와서 확인한단 말인가??..
+내가 변경한 부분을 바로 볼 수 없다니. 제대로 고쳐졌는지, 글은 잘 올라갔는지, 수정한 테마가 잘 어울리는지 등을 바로 볼 수 없으면 언제 돌아와서 확인한단 말인가??..  
+&nbsp;
+
 
 그래서 꼭 해결하고 싶었고 **고군분투**.. 했고 성공했습니다.
 
@@ -88,39 +92,38 @@ Minimal Mistakes의 공식 소개 사이트에는 다음과 같이 나와있습�
 
 Ruby를 설치하는 이유는 Jekyll이 Ruby로 개발되었기 때문입니다. Jekyll 서버를 다시 시작하려면 Ruby가 설치되어 있어야 가능하죠. (Minimal Mistakes도 Jekyll Theme 중 하나입니다)
 
-Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요합니다. Ubuntu는 Linux OS를 Windows에서 사용할 수 있도록 도와주는 프로그램입니다.
+Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요합니다. Ubuntu는 Linux OS를 Windows에서 사용할 수 있도록 도와주는 프로그램입니다.  
+&nbsp;
 
-<br>
 
 1. Ubuntu 설치에 앞서 환경 설정을 변경해줘야 합니다. Windows에서 Linux OS를 사용하기 위한 변경이라고 이해하면 될 것 같아요.
     - 제어판 → 프로그램 → 프로그램 및 기능 → Windows 기능 켜기/끄기 → Linux용 Windows 하위 시스템 선택 → 재부팅
 
         ![Image_1]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_01.png)
-
-<br>
+&nbsp;  
+&nbsp;
 
 2. 재부팅을 하셨으면 Microsoft Store에서 Ubuntu를 설치하고 실행해줍시다.
 
     ![Image_2]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_02.png)
-
-<br>
+&nbsp;  
+&nbsp;
 
 3. 설치가 완료되면 Ubuntu를 실행합시다.
     - 끝난줄 알았지만 조금 더 기다려봅시다.
 
       ![Image_3]({{ site.url }}{{ site.baseurl }}/assets/images/2020-08-29-blog_setup/blog_setup_03.png)
+&nbsp;  
+&nbsp;
 
-<br>
-
-4. 설치가 완료되면 UNIX username을 입력하라고 나옵니다. 전 surfingorca로 정했어요.
-
-<br>
+4. 설치가 완료되면 UNIX username을 입력하라고 나옵니다. 전 surfingorca로 정했어요.  
+&nbsp;
 
 5. 이후 password를 입력하고 한 번 더 확인해주면 설치가 완료됩니다.
     - Password 입력 시 안보여도 당황하지 마세요. 안 보이는 상태로 잘 입력되고 있습니다.
     - 이후로도 비번 입력은 늘 안보이는 상태로 진행합니다.
-
-<br>
+&nbsp;  
+&nbsp;
 
 6. Ubuntu 터미널에 다음 명령어들을 입력하여 RVM을 설치합시다.
 ($ 이후 명령어를 입력하시면 됩니다.)
@@ -136,8 +139,8 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
     - 복사/붙여넣기 하실 분들은 단축키가 달라도 당황하지 마세요.
     아래 글은 **`Ctrl + c`** 하시고 Ubuntu 터미널에선 **`마우스 오른쪽 클릭`** 혹은 **`Shift + Insert`** 를 하시면 돼요.
     - RVM 설치는 조금 오래걸리는 편이니 물 한잔 하고 오세요~
-
-<br>
+&nbsp;  
+&nbsp;
 
 7. 이후 RVM을 통해 Ruby를 설치합시다.
 
@@ -154,9 +157,8 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 
 ### 2. Jekyll Server 활성화
 
-이렇게 루비 설치가 끝났습니다. 이제 Jekyll과 기타 Ruby 의존성 패키지들을 설치합시다.
-
-<br>
+이렇게 루비 설치가 끝났습니다. 이제 Jekyll과 기타 Ruby 의존성 패키지들을 설치합시다.  
+&nbsp;
 
 1. 먼저 Github 블로그와 연결된 폴더로 이동해야 합니다.
 
@@ -166,8 +168,8 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 
     - 이유는 Gemfile이 있는 곳에서 설치가 이뤄져야 합니다. Minimal Mistakes를 제대로 가져왔다면 Gemfile이 폴더에 있을겁니다. 없다면 Minimal Mistakes Repository에서 가져옵시다.
     - cd는 Change Directory를 의미합니다. 이동할 때는 꼭 한 줄에 전체 경로를 입력합시다.
-
-<br>
+&nbsp;  
+&nbsp;
 
 2. 이동한 폴더에서 나머지 필요한 설치를 진행합시다.
 
@@ -176,13 +178,13 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
     ```
 
     - 위 코드를 통해 필요한 패키지(Jekyll 포함)를 설치합니다.
-
-<br>
+&nbsp;  
+&nbsp;
 
 3. 이제 설치는 모두 끝났습니다. 다음 코드를 실행하기 전에 컴퓨터를 한 번 부팅해줍시다
     - 제 경우 부팅을 해야 에러 없이 다음 코드가 진행되었습니다.
-
-<br>
+&nbsp;  
+&nbsp;
 
 4. 부팅 후 다음 코드를 실행하여 서버가 잘 연동되는지 확인해봅시다.
 
@@ -198,8 +200,8 @@ Linux OS에서 Ruby를 설치할 수 있는데 그래서 Ubuntu 설치가 필요
 
         - 그 후 부팅 후 위 코드를 실행하세요. 저는 부팅 안하고 실행하니 똑같은 에러를 만났어요 ㅎㅎ
         - 관련하여 stack overflow에 올라온 [질문과 답](https://stackoverflow.com/questions/57243299/jekyll-operation-not-permitted-apply2files)을 참고하세요.
-
-<br>
+&nbsp;  
+&nbsp;
 
 5. 잘 실행되었다면 아래 그림과 같이 접속 가능한 URL을 볼 수 있습니다.
 
