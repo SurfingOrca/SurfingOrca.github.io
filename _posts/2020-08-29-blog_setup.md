@@ -57,7 +57,8 @@ Jekyll 테마 중 Minimal mistakes을 이용하여 블로그를 생성하는 것
 
 Minimal Mistakes의 공식 소개 사이트에는 다음과 같이 나와있습니다.
 
-**Note:** for technical reasons, _config.yml is NOT reloaded automatically when used with jekyll serve. If you make any changes to this file, please restart the server process for them to be applied. {: .notice--warning}
+**Note:** for technical reasons, _config.yml is NOT reloaded automatically when used with jekyll serve. If you make any changes to this file, please restart the server process for them to be applied.
+{: .notice--warning}
 
 > 야매번역: **"기술적인 이유로 블로그를 수정해도 바로 적용되지 않아요! Jekyll 서버를 다시 시작해야 바로 확인할 수 있어요"**
 
